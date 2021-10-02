@@ -74,7 +74,15 @@ class Form extends Component{
     }
     
     handleSubmit = (event) => {
-        alert(`Form is submitted`);
+        alert(`${this.state.username}`);
+        alert(`${this.state.age}`);
+        alert(`${this.state.topic}`);
+        alert(`${this.state.exp}`);
+        alert(`${this.state.contact}`);
+        alert(`${this.state.emial}`);
+        alert(`${this.state.interest}`);
+
+        
         <print
         name="${this.state.username}" 
         age="${this.state.age}" 
